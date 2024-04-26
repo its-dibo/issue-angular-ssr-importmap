@@ -2,12 +2,9 @@
   "name": "issue-angular-ssr-importmap",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
+    "start": "npm run build && npm run serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:issue-angular-ssr-importmap": "node dist/issue-angular-ssr-importmap/server/server.mjs"
+    "serve": "node dist/issue-angular-ssr-importmap/server/server.mjs"
   },
   "private": true,
   "dependencies": {

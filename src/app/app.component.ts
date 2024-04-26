@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+// @ts-ignore
+import value from '#mod'
+
+console.log({value})
 
 @Component({
   selector: 'app-root',
